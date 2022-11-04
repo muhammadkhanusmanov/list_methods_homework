@@ -7,7 +7,7 @@ def main(fruits):
         list: return answer
     """
     i=0
-    a=[]
+    a=[fruits.count('apple')]
     while i<len(fruits):
         if fruits[i]=='apple':
             a.append(i)
