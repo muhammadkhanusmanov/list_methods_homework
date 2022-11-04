@@ -7,7 +7,8 @@ def main(fruits):
         list: return answer
     """
     i=0
-    while i<fruits.count('apple'):
+    n=fruits.count('apple')
+    while i<n:
         fruits.pop(fruits.index('apple'))
         i+=1 
     return fruits
